@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item android:title="@string/plan_name"
+            android:icon="@drawable/ic_plan"
+            android:id="@+id/plan"/>
+        <item android:title="@string/archive_name"
+            android:icon="@drawable/ic_archive"
+            android:id="@+id/archive"/>
+        <item android:title="@string/trash_name"
+            android:icon="@drawable/ic_trash_box"
+            android:id="@+id/trash"/>
+    </group>
+    <item
+        android:title="@string/other">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_app_description"
+                android:title="@string/about_this_app"/>
+        </menu>
+    </item>
+</menu>

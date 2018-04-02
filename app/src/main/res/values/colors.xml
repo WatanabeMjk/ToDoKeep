@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="listview_back_white">#ffffff</color>
+    <color name="listview_back_red">#FF6347</color>
+    <color name="listview_back_blue">#1E90FF</color>
+    <color name="listview_back_orange">#FFA500</color>
+    <color name="listview_back_green">#66CC66</color>
+    <color name="listview_back_pink">#FF6699</color>
+    <color name="listview_back_yellow">#FFFF00</color>
+    <color name="listview_back_selected">#7d7d7d</color>
+
+    <color name="main_base_red">#ff3838</color>
+    <color name="textBasicColor">#263238</color>
+    <color name="actionbar">#66CDAA</color>
+</resources>

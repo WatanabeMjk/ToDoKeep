@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "863462109261",
+    "firebase_url": "https://todokeep-fbd3a.firebaseio.com",
+    "project_id": "todokeep-fbd3a",
+    "storage_bucket": "todokeep-fbd3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863462109261:android:eee4c9572c7453b0",
+        "android_client_info": {
+          "package_name": "com.watanabemjk.todokeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863462109261-leun8lp97q3gvdnde9a0n54a1og342fd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.watanabemjk.todokeep",
+            "certificate_hash": "07a36c1f92a09028ebf2b12bf0d6336df50981da"
+          }
+        },
+        {
+          "client_id": "863462109261-vr9gamcvhp8rg16d1p4jhaut77lue1nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXTx2rlQNLB1fJleO1Pe-hLBgLh8MdKD4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863462109261-vr9gamcvhp8rg16d1p4jhaut77lue1nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
