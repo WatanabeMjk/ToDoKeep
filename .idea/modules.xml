@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ToDoKeep.iml" filepath="$PROJECT_DIR$/.idea/ToDoKeep.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToDoKeep.iml" filepath="$PROJECT_DIR$/.idea/modules/ToDoKeep.iml" group="ToDoKeep" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="ToDoKeep/app" />
     </modules>
   </component>
 </project>
