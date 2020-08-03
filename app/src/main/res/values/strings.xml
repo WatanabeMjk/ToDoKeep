@@ -34,4 +34,7 @@
     <string name="thank_you_dl">Thank you for downloading this application！by WatanabeMjk</string>
     <string name="press_again">Press again to finish</string>
     <string name="other">Other</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_content">The privacy policy of this app is from the link below\n
+    https://github.com/WatanabeMjk/ToDoKeep/wiki</string>
 </resources>

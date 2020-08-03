@@ -11,9 +11,13 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.SpannableString;
+import android.text.method.LinkMovementMethod;
+import android.text.util.Linkify;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
@@ -110,7 +114,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         .setPositiveButton(R.string.ok, null)
                         .show();
                 break;
+            case R.id.privacy_policy_link:
+                final SpannableString s = new SpannableString(getString(R.string.privacy_policy_content));
+                final TextView tx1 = new TextView(this);
+                tx1.setText(s);
+                tx1.setAutoLinkMask(RESULT_OK);
+                tx1.setMovementMethod(LinkMovementMethod.getInstance());
+                Linkify.addLinks(s, Linkify.WEB_URLS);
+                float scale = getResources().getDisplayMetrics().density;
+                int dpAsPixels = (int) (25 * scale + 0.5f);
+                tx1.setPadding(dpAsPixels,20,dpAsPixels,0);
 
+                new AlertDialog.Builder(this)
+                        .setTitle(R.string.privacy_policy)
+                        .setView(tx1)
+                        .setPositiveButton(R.string.ok, null)
+                        .show();
+                break;
         }
         mToolbar.setTitle(mTitle);
         mDrawerLayout.closeDrawer(mNavigationView);
